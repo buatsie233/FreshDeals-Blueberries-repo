@@ -1,0 +1,23 @@
+.breadcrumb{
+    padding: 7px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .breadcrumb li{
+    display: inline;
+  }
+  
+  .breadcrumb li.location+li.location::before  {
+    content: "/";
+  }
+  
+  .breadcrumb li.location a:hover{
+    color: blue;
+  }
+  
+  .breadcrumb li.attribute a:hover{
+    color: gray;
+    text-decoration: underline;
+  }
+  
